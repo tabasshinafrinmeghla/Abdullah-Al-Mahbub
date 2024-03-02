@@ -10,8 +10,15 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
-        <img src={logo} alt="logo" />
+      <div className='flex'>
+        <div >
+        <img
+        className="w-[95px] h-[95px] lgl:w-[95px] lgl:h-[95px] z-10 p-2 rounded-full "
+         src={logo} alt="logo" />
+        </div>
+         <div>
+         <h2 className='mt-5 p-3 '>Abdullah Al Mahbub </h2>
+         </div>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
