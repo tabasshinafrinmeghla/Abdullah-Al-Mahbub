@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                I'm a dynamic entrepreneur serving as the CEO of Network24 and Web Connection a leading Internet Service Provider (ISP) company, and the visionary mind behind Food Cafe, a vibrant restaurant offering culinary delights. With a passion for innovation and customer satisfaction,I"m leads Network24 and Web Connection in delivering high-speed internet solutions to empower individuals and businesses alike. Simultaneously, his dedication to culinary excellence shines through Food Cafe, where he curates a delightful dining experience for patrons, blending flavors and ambiance to create memorable moments. With a relentless drive for success and a commitment to excellence,continues to inspire and elevate both industries with his leadership and vision.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
