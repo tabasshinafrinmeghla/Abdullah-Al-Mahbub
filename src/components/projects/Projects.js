@@ -20,6 +20,7 @@ const Projects = () => {
           title="Network24"
           des=" Network24, established in November 2023, is a pioneering Internet Service Provider (ISP) company dedicated to providing high-speed connectivity solutions. With a focus on innovation and customer-centric services, Network24 aims to revolutionize the digital landscape, empowering individuals and businesses with seamless internet access and unparalleled reliability."
           src={projectOne}
+          
         />
         <ProjectsCard
           title="Web Connection"
@@ -32,12 +33,12 @@ const Projects = () => {
           des="Food Bank Cafe, established in 2019, is not just a restaurant but a culinary haven where flavors meet compassion. Rooted in the mission to alleviate hunger, this unique establishment serves up delicious meals while also giving back to the community. With every bite, patrons support a noble cause, making dining at Food Bank Cafe an experience that nourishes both the body and soul."
           src={projectThree}
         />
-        <ProjectsCard
+        {/* <ProjectsCard
           title="IT Solution"
           des=
           "IT Solution, poised to launch in the coming year, is a forward-thinking security-based company dedicated to safeguarding digital assets and protecting businesses from cyber threats. With a focus on cutting-edge technology and innovative strategies, IT Solution is poised to redefine cybersecurity standards, offering comprehensive solutions to address the evolving landscape of digital security challenges."
           src={projectTwo}
-        />
+        /> */}
       </div>
     </section>
   );
