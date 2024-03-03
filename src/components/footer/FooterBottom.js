@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaFontAwesome, FaPhone } from 'react-icons/fa';
+// import { FaPhone } from 'react-icons/fa';
 
-// import {  } from 'react-icons/fa';
+
 
 const FooterBottom = () => {
   return (
@@ -11,9 +11,9 @@ const FooterBottom = () => {
       </p>
       <br/>
       <p className="text-center text-gray-500 text-base">
-        DEVELOPERS @tabasshin Afrin Meghla 
-        <FaFontAwesome icon={FaPhone} />
-        +8801745771186
+        DEVELOPERS @tabasshin Afrin Meghla <b> +8801745771186</b>
+       
+
       </p>
     </div>
   );
