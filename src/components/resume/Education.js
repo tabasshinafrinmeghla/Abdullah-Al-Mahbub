@@ -17,27 +17,27 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Bachelor of Business Administration"
+            subTitle="Darul Ihsan University (2006 - 2010)"
+            // result="3.90/4"
+            des="University life is a vibrant blend of academic exploration, social connections, and personal growth. It offers opportunities for intellectual curiosity, extracurricular engagement, and lifelong friendships. Through diverse experiences, students develop independence, resilience, and a sense of community, preparing them for future endeavors."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Higher Secondary Certificate"
+            subTitle="hazi asmat government college(2001 - 2005)"
+            // result="4.75/5"
+            des="College life is a dynamic period of academic pursuit, social interaction, and personal development. It offers opportunities for learning, self-discovery, and building lifelong connections. Through diverse experiences, students cultivate independence, resilience, and a sense of belonging."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Secondary School Certificate"
+            subTitle="Bhairab Government Kadir Baksa Pilot Model High School(1998 - 2000)"
+            // result="5.00/5"
+            des="School life is a formative journey of learning, friendship, and growth. It fosters academic curiosity, social interaction, and character development. Through diverse experiences, students lay the foundation for future success and lifelong learning."
           />
         </div>
       </div>
       {/* part Two */}
-
+{/* 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
@@ -63,7 +63,7 @@ const Education = () => {
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

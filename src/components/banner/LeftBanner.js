@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
+import { FaPhone } from 'react-icons/fa';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -28,7 +29,19 @@ const LeftBanner = () => {
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         Meet Mahabub: Entrepreneur, CEO of Network24 ISP, and visionary behind Food Cafe. Spearheading high-speed internet solutions and crafting memorable dining experiences, he inspires with visionary leadership.
         </p>
+
+        <div className="flex ">
+  <div className="p-1">
+  <FaPhone></FaPhone>
+  </div>
+  <div>
+  
+  <h1 className="text-1xl font-bold text-white flex p-1">01740992598</h1>
+  </div>
+</div>
       </div>
+
+
      {/* Media */}
      <Media />
     </div>
