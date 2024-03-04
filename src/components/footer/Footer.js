@@ -8,9 +8,13 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32 p-2 rounded-full" src={logo} alt="logo" />
         <div className="flex gap-4">
+          
+          <a href='https://www.facebook.com/abdullah.mahbub.731'>
           <span className="bannerIcon">
             <FaFacebookF />
           </span>
+          </a>
+
           <span className="bannerIcon">
             <FaTwitter />
           </span>

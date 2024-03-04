@@ -37,8 +37,8 @@ const Education = () => {
         </div>
       </div>
       {/* part Two */}
-{/* 
-      <div>
+
+      {/* <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>

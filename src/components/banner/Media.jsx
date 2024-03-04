@@ -9,9 +9,11 @@ const Media = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
+          <a href='https://www.facebook.com/abdullah.mahbub.731'>
+          <span className="bannerIcon">
+            <FaFacebookF />
+          </span>
+          </a>
             <span className="bannerIcon">
               <FaTwitter />
             </span>
